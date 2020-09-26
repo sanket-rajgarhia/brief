@@ -1,17 +1,33 @@
+a {
+  color: #11999E;
+}
+
 body {
   font-family: 'Merriweather', serif;
+  font-size: 20px;
   margin: 0;
   text-align: center;
 }
 
 h1 {
+  color: #66BFBF;
   font-family: 'Sacramento', cursive;
-  margin: 0 auto;
-  width: 30%
+  font-size: 5.625rem;
+  line-height: 2em;
+  margin: 50px auto 0 auto;
 }
 
-h2, h3 {
+h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
 }
 
 .top-container {
@@ -24,28 +40,24 @@ h2, h3 {
 
 .top-cloud {
   position: absolute;
-  right: 20%;
-  top: 5%;
-}
-
-.bottom-cloud {
-  bottom: 60%;
-  left: 20%;
-  position: absolute;
-}
-
-.middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-}
-
-.bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+  right: 10%;
+  top: 15%;
 }
 
 .pro {
   text-decoration-line: underline;
+}
+
+.bottom-cloud {
+  bottom: 60%;
+  left: 10%;
+  position: absolute;
+}
+
+.middle-container {
+  /* Put rules here */
+}
+
+.bottom-container {
+  /* Put Rules here */
 }
