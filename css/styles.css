@@ -4,7 +4,7 @@ a {
 
 body {
   font-family: 'Merriweather', serif;
-  font-size: 1em;
+  font-size: 0.85em;
   margin: 0;
   text-align: center;
 }
@@ -20,15 +20,22 @@ h1 {
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
   line-height: 1;
+}
+
+hr {
+  border: none;
+  border-top: dotted 15px #EAF6F6;
+  width: 10%
 }
 
 .top-container {
@@ -60,7 +67,7 @@ h3 {
 }
 
 .middle-container {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .circular-image {
@@ -72,7 +79,7 @@ h3 {
 }
 
 .profile {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #profile {
@@ -80,10 +87,19 @@ h3 {
   width: 100%;
 }
 
-.introduction {
+.contact-me {
+  margin-top: 100px;
+}
+
+.para-center {
   color: #40514E;
-  margin: 0 auto 0 auto;
+  margin: 50px auto 50px auto;
+  text-align: left;
   width: 50%;
+}
+
+.skills {
+  margin-top: 100px;
 }
 
 .skill-row {
@@ -109,6 +125,47 @@ h3 {
   width: 25%;
 }
 
+.contact-btn {
+  background-color: #0DBAC1;
+  border: 1px solid #0DBAC1;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  height: 30px;
+  line-height: 2.25;
+  text-decoration: none;
+  width: 150px;
+}
+
+.contact-btn:hover {
+  background-color: #74c1a3;
+}
+
 .bottom-container {
-  /* Put Rules here */
+  background-color: #6FBFBF;
+  margin-top: 100px;
+}
+
+.footer-link {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 50px 1.5%;
+  text-decoration: none;
+  width: 5%;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.7rem;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.license {
+  display: inline;
+  font-size: 1px;
+  margin-right: 5%;
 }
