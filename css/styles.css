@@ -38,6 +38,11 @@ hr {
   width: 10%
 }
 
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
 .top-container {
   background-color: #EAF6F6;
   /* Providing padding to the top-container <div> */
@@ -92,7 +97,6 @@ hr {
 }
 
 .para-center {
-  color: #40514E;
   margin: 50px auto 50px auto;
   text-align: left;
   width: 50%;
@@ -103,7 +107,6 @@ hr {
 }
 
 .skill-row {
-  line-height: 2;
   margin: 100px auto 100px auto;
   text-align: left;
   width: 50%;
@@ -159,6 +162,10 @@ hr {
   margin: 50px 1.5%;
   text-decoration: none;
   width: 5%;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
 }
 
 .copyright {
