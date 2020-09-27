@@ -21,7 +21,7 @@ h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h3 {
@@ -32,9 +32,9 @@ h3 {
 }
 
 .top-container {
-  background-color: #5588a3;
+  background-color: #EAF6F6;
   /* Providing padding to the top-container <div> */
-  padding-top: 100px;
+  padding-top: 5px;
   /* To position child elements absolutely */
   position: relative;
 }
@@ -42,7 +42,7 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 10%;
-  top: 15%;
+  top: 5%;
 }
 
 .pro {
@@ -55,21 +55,35 @@ h3 {
   position: absolute;
 }
 
+.sup-monkey {
+  margin-top: -50px;
+}
+
 .middle-container {
-  /* Put Rules here */
+  margin-top: 50px;
 }
 
 .circular-image {
   border-radius: 50%;
   height: 200px;
-  margin: 20px auto 20px auto;
+  margin: 0 auto 0 auto;
   overflow: hidden;
   width: 200px;
+}
+
+.profile {
+  margin-bottom: 50px;
 }
 
 #profile {
   height: auto;
   width: 100%;
+}
+
+.introduction {
+  color: #40514E;
+  margin: 0 auto 0 auto;
+  width: 50%;
 }
 
 .skill-row {
