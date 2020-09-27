@@ -4,7 +4,7 @@ a {
 
 body {
   font-family: 'Merriweather', serif;
-  font-size: 20px;
+  font-size: 1em;
   margin: 0;
   text-align: center;
 }
@@ -28,6 +28,7 @@ h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  line-height: 1;
 }
 
 .top-container {
@@ -55,7 +56,7 @@ h3 {
 }
 
 .middle-container {
-  /* Put rules here */
+  /* Put Rules here */
 }
 
 .circular-image {
@@ -69,6 +70,29 @@ h3 {
 #profile {
   height: auto;
   width: 100%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-image-left {
+  background-color: grey;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+  width: 25%;
+}
+
+.skill-image-right {
+  background-color: #e5df88;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
 }
 
 .bottom-container {
