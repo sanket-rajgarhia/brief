@@ -58,6 +58,19 @@ h3 {
   /* Put rules here */
 }
 
+.circular-image {
+  border-radius: 50%;
+  height: 200px;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  width: 200px;
+}
+
+#profile {
+  height: auto;
+  width: 100%;
+}
+
 .bottom-container {
   /* Put Rules here */
 }
